@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home Work 3_7</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <form class="forma" id="form">
+        <h2 class="title" id="subtitle">Registration</h2>
+        <div class="wrapper_1">
+            <input class="input__firstname" name="firstname" type="text" placeholder="First Name">
+            <input class="input__lastname" name="lastname" type="text" placeholder="Last Name">
+        </div>
+        <div class="wrapper_2">
+            <input class="input__email" name="email" type="email" placeholder="Email">
+            <input class="input__phone" name="phone" type="tel" placeholder="Phone Number">
+        </div>
+        <div class="wrapper_3">
+            <input class="input__country" name="country" type="text" placeholder="Country">
+            <input class="input__city" name="city" type="text" placeholder="City">
+        </div>
+        <label class="title__label">Gender: </label>
+        <div class="wrapper__radio">
+            <input class="input__radio-male" name="gebder" id="male" data-value="male" value="male" type="radio">
+            <label for="male">Male</label>
+            <input class="input__radio-female" name="gender" id="female" value="female" type="radio">
+            <label for="female">Female</label>
+        </div>
+        <div class="wrapper_password">
+            <input class="input__password" name="password" placeholder="Password" type="password">
+            <input class="input__confirmpassword" name="confirmpassword" placeholder="ConfirmPassword" type="password">
+        </div>
+        <button class="button" type="submit">Submit</button>
+    </form>
+    
+    <ul class="male-box"></ul>
+    
+    <ul class="female-box"></ul>
+    
+    
+    <script src="./script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+.forma{
+    background-color: #f2f2f2;
+    width: 600px;
+    padding: 20px 60px;
+    border: 5px solid #000;
+}
+.title{
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.wrapper_1{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.input__firstname{
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.input__lastname{
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.wrapper_2{
+    display: flex;
+    flex-direction: column;
+}
+.input__email{
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.input__phone{
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.wrapper_3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+.input__country{
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.input__city{
+    width: 300px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.wrapper__radio{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input__radio-male{
+    display: inline-block;
+}
+.input__radio-female{
+    display: flex;
+}
+.wrapper_password{
+    display: flex;
+    flex-direction: column;
+}
+.input__password{
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.input__confirmpassword{
+    padding: 15px;
+    border: radius 5px;
+    margin-bottom: 15px;
+}
+.button{
+    margin-left: 300px;
+    padding: 15px 40px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+}
